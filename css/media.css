@@ -1,0 +1,461 @@
+/* Tablet land */
+@media screen and (max-width:1225px) and (min-width:768px) {
+    
+    .header .text p{font-size: 1.5rem;}
+    .header .text h2{ font-size: 3.5rem;}
+    .nav-links {
+        opacity: 0;
+    }
+    /* nav{
+        padding: 1% 2%;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: black;
+    } */
+    .container{
+        width:90% ;
+    }
+    nav .icon1{
+        opacity: 1;
+    }
+    .about .part1 .part1-text1 h2
+    {
+        font-size: 6rem;
+    }
+    .about .part1 .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .about .part1 .part1-text2{
+        top: 80px;
+    }
+    .about .part2{
+        display: block;
+    }
+    .about .part2 .part2-text1{
+        width: 100%;
+    }
+    .about .part2 .part2-text2{
+        width: 100%;
+    }
+    .about .part3 .parts .num{
+        width: 50%;
+        display: inline-block;
+    }
+    .what-i-do .part1 .part1-text1 h2{
+        font-size: 6rem;
+    }
+    .what-i-do .part1 .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .what-i-do .part1 .part1-text2{
+        top: 80px;
+    }
+    .resume .part1 .part1-text1 h2{
+        font-size: 6rem;
+    }
+    .resume .part1 .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .resume .part3 .part3-rate .part3-rate1{
+        width: 100%;
+    }
+    .resume .part1 .part1-text2{
+        top: 80px;
+    }
+    .client .part1-text .part1-text1 h2{
+        font-size: 6rem;
+    }
+    .client .part1-text .part1-text2{
+        top: 80px;
+    }
+    .client .part1-text .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .client .part2 .part2-client2{
+       width: 45%;
+    }
+    .client .part2 .part2-client1
+    {
+        width: 45%;
+    }
+    .contact .part1 .part1-text1 h2{
+        font-size: 6rem;
+    }
+    .contact .part1 .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .contact  .part1 .part1-text2{
+        top: 80px;
+    }
+    .footer .part1{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .footer .part2{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .parts{
+      flex-direction: column;
+    }
+    .Portfolio .part1 .part1-text1 h2
+    {
+        font-size: 6rem;
+    }
+    .Portfolio .part1 .part1-text2 p{
+        font-size: 2.1rem;
+    }
+    .Portfolio .part1 .part1-text2{
+        top: 80px;
+    }
+    .Portfolio .part .part0 {
+        width: 100%;
+    }
+    .Portfolio .part .part2{
+        width: 100%;
+    }
+    .Portfolio .part .part3{
+        width: 100%;
+    }
+    .Portfolio .part{
+        flex-direction: column;
+    }
+   
+    
+   
+}
+
+/* Large phone lang */
+@media screen and (max-width:766px) and (min-width:500px) {
+  
+    .header .text p{font-size: 1.3rem;}
+    .header .text h2{ font-size: 3rem;}
+    .nav-links{
+        opacity: 0;
+    }
+    .container{
+        width:90% ;
+        margin: 3px auto ;
+    }
+    /* nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0.5% 2%;
+        background-color: black;
+
+    } */
+    nav .icon1{
+        opacity: 1;
+    }
+    .about .part1 .part1-text1 h2
+    {
+        font-size: 4rem;
+    }
+    .about .part1 .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .about .part1 .part1-text2{
+        top: 60px;
+    }
+    .about .part2{
+        display: block;
+    }
+    .about .part2 .part2-text1{
+        width: 100%;
+    }
+    .about .part2 .part2-text2{
+        width: 100%;
+    }
+    .about .part2 .part2-text1 h2{
+        text-align: center;
+    }
+    .about .part2 .part2-text1 p{
+        text-align: center;
+    }
+    .about .part3 .parts .num{
+        width: 50%;
+        display: inline-block;
+    }
+    .what-i-do .part2 .part2-text{
+        width: 100%;
+    }
+    .what-i-do .part1 .part1-text1 h2{
+        font-size: 4rem;
+    }
+    .what-i-do .part1 .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .what-i-do .part1 .part1-text2{
+        top: 60px;
+    }
+    .resume .part1 .part1-text1 h2{
+        font-size: 4rem;
+    }
+    .resume .part1 .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .resume .part2 .part2-text1{
+        width: 100%;
+    }
+    .resume .part3 .part3-rate .part3-rate1{
+        width: 100%;
+        padding: 0;
+   
+    }
+    .resume .part3 .part3-rate{
+        flex-direction: column;
+    }
+    .resume .part1 .part1-text2{
+        top: 60px;
+    }
+    .client .part1-text .part1-text1 h2{
+        font-size: 4rem;
+    }
+    .client .part1-text .part1-text2{
+        top: 60px;
+    }
+    .client .part1-text .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .client .part2 .part2-client2{
+        display: none;
+    }
+    .client .part2 .part2-client1
+    {
+        width: 100%;
+    }
+    .client  .part3 .dot3{
+        opacity: 1;
+    }
+    
+     .contact .part2 .part2-right{
+        width: 100%;
+        text-align: center;
+    }
+    .contact .part2 .part2-left{
+        width: 100%;
+    }
+    .contact .part2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .part2 .part2-right ul{
+        justify-content: center;
+    }
+    .contact .part1 .part1-text1 h2
+    {
+        font-size: 4rem;
+    }
+    .contact .part1 .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .contact .part1 .part1-text2{
+        top: 60px;
+    }
+    .footer .part1{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .part2{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .parts{
+        flex-direction: column;
+      }
+      .Portfolio .part1 .part1-text1 h2
+    {
+        font-size: 4rem;
+    }
+    .Portfolio .part1 .part1-text2 p{
+        font-size: 2.2rem;
+    }
+    .Portfolio .part1 .part1-text2{
+        top: 60px;
+    }
+    .Portfolio .part .part0 {
+        width: 100%;
+    }
+    .Portfolio .part .part2{
+        width: 100%;
+    }
+    .Portfolio .part .part3{
+        width: 100%;
+    }
+    .Portfolio .part{
+        flex-direction: column;
+    }
+   
+  
+   
+}
+
+/* Small Phone */
+@media screen and (max-width:499px) {
+   
+    .header .text p{font-size: 1rem;}
+    .header .text h2{ font-size: 2.5rem;}
+    .nav-links{
+        opacity: 0;
+    }
+    .container{
+        width:90% ;
+        margin: 3px auto ;
+    }
+    /* nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0.5% 2%;
+        background-color: black;
+    } */
+    nav .icon1{
+        opacity: 1;
+    }
+   
+    .about .part1 .part1-text1 h2
+    {
+        font-size: 3rem;
+    }
+    .about .part1 .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .about .part1 .part1-text2{
+        top: 40px;
+    }
+    .about .part2{
+        display: block;
+    }
+    .about .part2 .part2-text1{
+        width: 100%;
+    }
+    .about .part2 .part2-text2{
+        width: 100%;
+    }
+    .about .part2 .part2-text1 h2{
+        text-align: center;
+    }
+    .about .part2 .part2-text1 p{
+        text-align: center;
+    }
+    .about .part3 .parts .num{
+        width: 50%;
+        display: inline-block;
+    }
+    .what-i-do .part2 .part2-text{
+        width: 100%;
+    }
+    .what-i-do .part1 .part1-text1 h2{
+        font-size: 3rem;
+    }
+    .what-i-do .part1 .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .what-i-do .part1 .part1-text2{
+        top: 40px;
+    }
+    .resume .part1 .part1-text1 h2{
+        font-size: 3rem;
+    }
+    .resume .part1 .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .resume .part2 .part2-text1{
+        width: 100%;
+    }
+    .resume .part3 .part3-rate .part3-rate1{
+        width: 100%;
+        padding: 0;
+      
+    }
+    .resume .part3 .part3-rate{
+        flex-direction: column;
+    }
+    .resume .part1 .part1-text2{
+        top: 40px;
+    }
+    .client .part1-text .part1-text1 h2{
+        font-size: 3rem;
+    }
+    .client .part1-text .part1-text2{
+        top: 40px;
+    }
+    .client .part1-text .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .client .part2 .part2-client2{
+        display: none;
+    }
+    .client .part2 .part2-client1
+    {
+        width: 100%;
+    }
+    .client  .part3 .dot3{
+        opacity: 1;
+   
+    }
+    .contact .part2 .part2-right{
+        width: 100%;
+        text-align: center;
+    }
+    .contact .part2 .part2-left{
+        width: 100%;
+    }
+    .contact .part2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact .part2 .part2-right ul{
+        justify-content: center;
+    }
+    .contact .part1 .part1-text1 h2
+    {
+        font-size: 3rem;
+    }
+    .contact .part1 .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .contact .part1 .part1-text2{
+        top: 40px;
+    }
+    .footer .part1{
+        width: 100%;
+        justify-content: center;
+      
+        
+    }
+    .footer .part2{
+        width: 100%;
+        justify-content: center;
+       
+    }
+    .footer .parts{
+      flex-direction: column;
+    }
+    .Portfolio .part1 .part1-text1 h2
+    {
+        font-size: 4rem;
+    }
+    .Portfolio .part1 .part1-text2 p{
+        font-size: 2.3rem;
+    }
+    .Portfolio .part1 .part1-text2{
+        top: 40px;
+    }
+    .Portfolio .part .part0 {
+        width: 100%;
+    }
+    .Portfolio .part .part2{
+        width: 100%;
+    }
+    .Portfolio .part .part3{
+        width: 100%;
+    }
+    .Portfolio .part{
+        flex-direction: column;
+    }
+   
+}
